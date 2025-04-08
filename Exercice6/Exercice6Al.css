@@ -1,0 +1,60 @@
+.container,
+.container2,
+.container3{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rec1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DADADA;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.Logo,
+.Navigation {
+    background-color: white;
+    padding: 1px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: normal;
+}
+.rec2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.Body {
+    flex: 2; 
+    padding: 40px;
+    background-color: #DADADA;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Sidebar {
+    flex: 1; 
+    padding: 40px;
+    background-color: #DADADA;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Footer{
+    padding: 20px;
+    background-color: #DADADA;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}

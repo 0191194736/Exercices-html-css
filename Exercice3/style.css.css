@@ -1,0 +1,52 @@
+.blue
+{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 270px;
+  z-index: 2;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    top: 130px;
+    left: 200px;
+    z-index: 1;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red
+{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 3;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.som
+{
+    display: flex;
+}
